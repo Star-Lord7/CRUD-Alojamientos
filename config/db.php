@@ -24,7 +24,7 @@
 // }
 
 function conectarDB() : mysqli {
-    $db = mysqli_connect('localhost', 'root', 'root', 'crud_kodigo');
+    $db = mysqli_connect('localhost', 'root', '', 'crud_kodigo');
 
     if(!$db){
         echo 'Error no se pudo conectar a la base de datos';
